@@ -1,0 +1,90 @@
+.head-row{
+    background-color: rgb(139, 214, 233);
+    height: 50vh;
+    padding: 5%;
+}
+.leftside{
+    background-color:rgb(139, 214, 233);
+}
+.rightside{
+    background-color:rgb(139, 214, 233);
+}
+.mylist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    
+}
+.style{
+    margin-left: 20px;
+}
+.time{
+    text-align: center;
+}
+.list{
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+}
+.list:hover{
+    font-size: bold;
+    font-weight: 600;
+    color: rgb(24, 10, 153);
+    text-decoration: none;
+   
+}
+
+/************container2****************/
+.container2{
+    text-align: center;
+}
+.lead{
+    text-align: center;
+    color: slateblue;
+    font-size: 30px;
+}
+.info{
+    text-align: center;
+}
+.reg-now:hover{
+    background-color: slategray;
+    color: black;
+}
+/************cards********************/
+.pic-cards{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.gal-1{
+    margin: 5%;
+}
+.body{
+    text-align: center;
+}
+/*************footer**************************/
+#social-links {
+    display: inline-block;
+    font-size: 25px;  
+}
+
+.facebook{
+    color: blue;
+
+}
+.instagram{
+    color: #e6005c;
+
+}
+.twitter{
+    color:  #00bfff;
+}
+.plus{
+    color: #ff0000;
+}
